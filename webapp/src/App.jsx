@@ -47,7 +47,7 @@ const theme = createTheme({
   },
 });
 
-const apiKey = "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"
+const apiKey = ""
 
 const sleep = (ms) => new Promise(resolve => setTimeout(resolve, ms));
 const openaiCompletion = async (summary) => {
